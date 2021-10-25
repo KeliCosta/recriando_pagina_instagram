@@ -122,3 +122,30 @@ body {
 .app-download:nth-child(2) {
     background-image: url("./img/gloogleplay.png");
 }
+
+@media (max-width: 1024px) {
+    .instagran-wrapper { 
+        width: 90%;
+    }
+}
+
+@media (max-width:650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagran-wrapper {
+        width: 90%;
+    }
+
+    .celular-instagran {
+        display: none ;
+    }
+
+    .instagran-continue {
+        width: 100%
+    }
+    .group {
+        border: 1 px solid transparent;
+    }
+}
